@@ -5,12 +5,12 @@ This terraform stack will install WP and mysql db  docker image in GCP.
 
 install Terraform from https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
 
-Configure your GCP creds as per 
+Configure your GCP creds as per https://cloud.google.com/sdk/docs/initializing
 
 ## Usage
 
 Clone this repo
-https://cloud.google.com/sdk/docs/initializing
+
 ```bash
 cd wp-docker-terraform
 ```
