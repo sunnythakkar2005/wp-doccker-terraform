@@ -7,7 +7,7 @@ provider "google" {
 resource "google_compute_instance" "vm_instance" {
   name         = "terraform-instance"
   machine_type = "e2-medium"
-  metadata_startup_script = "${file("~/projects/cryptomoonlamp/scripts/bootstrap.sh")}"
+  metadata_startup_script = "${file("scripts/bootstrap.sh")}"
 
   boot_disk {
     initialize_params {
